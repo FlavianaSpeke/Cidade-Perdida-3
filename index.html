@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Em Busca da Cidade Perdida</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-container">
+    <header>
+      <h1 id="location-title">Carregando...</h1>
+    </header>
+    
+    <main>
+      <div class="image-box">
+        <img id="story-image" src="" alt="Imagem do local" />
+      </div>
+      <p id="story-text">Carregando a história...</p>
+      <div id="choices-container" class="choices-container"></div>
+    </main>
+
+    <footer>
+      <button id="restart-btn" class="btn-restart" onclick="startGame()">Reiniciar Jogo</button>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
