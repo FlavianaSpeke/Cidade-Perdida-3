@@ -1,7 +1,7 @@
 const storyData = {
   inicio: {
     title: "PASSO 1: O Início em Curitiba",
-    image: "https://images.unsplash.com/photo-1596701062351-8c2c14d1fdd0?q=80&w=800&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1541872703-74c5e44368f9?q=80&w=800&auto=format&fit=crop",
     text: "Você é um historiador em busca de uma civilização antiga no Paraná. Em Curitiba, você encontra duas pistas promissoras sobre a localização da cidade perdida.",
     choices: [
       { text: "Seguir para Morretes (Pegar o trem pela Serra do Mar)", nextStep: "morretes" },
@@ -10,8 +10,8 @@ const storyData = {
   },
   morretes: {
     title: "PASSO 2A: O Caminho do Litoral",
-    image: "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?q=80&w=800&auto=format&fit=crop",
-    text: "Você chega a Morretes de trem. Um pescador local menciona ter visto ruínas misteriosas nas ilhas da região do litoral.",
+    image: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?q=80&w=800&auto=format&fit=crop",
+    text: "Você chega a Morretes cortando as montanhas da Serra do Mar. Um pescador local menciona ter visto ruínas misteriosas nas ilhas da região do litoral.",
     choices: [
       { text: "Ir para Paranaguá (Investigar o porto e as ilhas)", nextStep: "paranagua" },
       { text: "Subir para Guaratuba (Procurar nas praias do sul)", nextStep: "guaratuba" }
@@ -20,7 +20,7 @@ const storyData = {
   pontaGrossa: {
     title: "PASSO 2B: O Caminho dos Campos Gerais",
     image: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=800&auto=format&fit=crop",
-    text: "Nas formações rochosas de Vila Velha, em Ponta Grossa, você descobre uma antiga inscrição entalhada na pedra.",
+    text: "Nas imensas formações rochosas de Vila Velha, em Ponta Grossa, você descobre uma antiga inscrição entalhada na pedra.",
     choices: [
       { text: "Ir para Guarapuava (Entrar na mata fechada do centro)", nextStep: "guarapuava" },
       { text: "Ir para Londrina (Investigar a região norte)", nextStep: "londrina" }
@@ -44,7 +44,7 @@ const storyData = {
   guarapuava: {
     title: "PASSO 3: A Caverna do Centro",
     image: "https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=800&auto=format&fit=crop",
-    text: "Nas florestas de Guarapuava, você descobre uma caverna com inscrições em relevo. O mapa aponta para a região oeste.",
+    text: "Nas florestas densas de Guarapuava, você descobre uma caverna oculta com inscrições em relevo. O mapa aponta para a região oeste.",
     choices: [
       { text: "Seguir para Maringá (Procurar sob a sombra da catedral)", nextStep: "maringa" },
       { text: "Seguir para Toledo (Explorar o vale dos rios no oeste)", nextStep: "toledo" },
@@ -61,7 +61,7 @@ const storyData = {
   },
   toledo: {
     title: "FIM DE JOGO: O Rio Errado",
-    image: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?q=80&w=800&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=800&auto=format&fit=crop",
     text: "Você seguiu o curso do rio até Toledo, mas os marcadores indígenas antigos desapareceram na vegetação. A trilha esfriou.",
     choices: []
   },
@@ -79,8 +79,8 @@ const storyData = {
   },
   vitoria: {
     title: "PASSO FINAL: A Descoberta!",
-    image: "https://images.unsplash.com/photo-1583417319070-4a69db38a482?q=80&w=800&auto=format&fit=crop",
-    text: "Atrás da cortina d'água das Cataratas em Foz do Iguaçu, uma passagem secreta se abre... Você descobriu a Cidade Perdida de Peabiru escondida sob o Paraná!",
+    image: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=800&auto=format&fit=crop",
+    text: "Atrás da cortina d'água das Cataratas em Foz do Iguaçu, uma passagem secreta revela ruínas milenares esquecidas no tempo. Você descobriu a Cidade Perdida de Peabiru sob a vegetação do Paraná!",
     choices: []
   }
 };
